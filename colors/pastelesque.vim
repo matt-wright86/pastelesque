@@ -151,14 +151,6 @@ hi jsRegexpString ctermfg=73
 hi jsNumber ctermfg=208
 hi jsFloat ctermfg=208
 hi jsObjectKey ctermfg=green
-" jsFunctionKey
-" jsDecorator
-" jsDecoratorFunction
-" jsAssignmentExpr     /\v%([a-zA-Z_$]\k*\.)*[a-zA-Z_$]\k*\s*\=\(>\)\@!/ contains=jsFuncAssignExpr,jsAssignExpIdent,jsPrototype,jsOperator,jsThis,jsNoise,jsArgsObj
-" jsAssignExpIdent     /\v[a-zA-Z_$]\k*\ze%(\s*\=)/ contained
-" jsFuncAssignExpr     /\v%(%([a-zA-Z_$]\k*\.)*[a-zA-Z_$]\k*\s*\=\s*){-1,}\ze%(function\s*\*?\s*\()/ contains=jsFuncAssignObjChain,jsFuncAssignIdent,jsFunction,jsPrototype,jsOperator,jsThis,jsArgsObj contained
-" jsFuncAssignObjChain /\v%([a-zA-Z_$]\k*\.)+/ contains=jsPrototype,jsNoise contained
-" jsFuncAssignIdent
 hi jsNull ctermfg=208
 hi jsReturn ctermfg=176
 hi jsUndefined ctermfg=208
